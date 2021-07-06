@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddCompanyDetails">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_margin="80dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Add Company Details"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/addcomapanyname"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:hint="Enter Company Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></EditText>
+
+    <EditText
+        android:id="@+id/addcompanydescp"
+        android:layout_width="307dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:hint="Enter Company Detail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcomapanyname"></EditText>
+
+    <EditText
+        android:id="@+id/addcompanyjobdesc"
+        android:layout_width="307dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:hint="Enter Company Job Description"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcompanydescp"></EditText>
+
+    <Button
+        android:id="@+id/btnaddcompanydetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Company"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcompanyjobdesc"
+        app:layout_constraintVertical_bias="0.317" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

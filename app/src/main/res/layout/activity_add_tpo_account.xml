@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddTpoAccount">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_margin="80dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Add TPO Credentials"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.559"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <EditText
+        android:id="@+id/addtponame"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:gravity="center"
+        android:hint="Enter TPO Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"></EditText>
+
+    <EditText
+        android:id="@+id/addtpoemail"
+        android:layout_width="307dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:hint="Enter TPO Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addtponame"></EditText>
+
+    <EditText
+        android:id="@+id/addtpopass"
+        android:layout_width="307dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:hint="Enter TPO Passowrd"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addtpoemail"></EditText>
+
+    <Button
+        android:id="@+id/btnaddtpoaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add TPO"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addtpopass"
+        app:layout_constraintVertical_bias="0.317" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="@color/lightpurple">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif"
+        android:text="Student Placement System"
+        android:textColor="@color/black"
+        android:textSize="18sp"></TextView>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/student"
+        android:layout_centerInParent="true"
+        ></ImageView>
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="180dp"-->
+<!--        android:layout_marginBottom="40dp"-->
+<!--        app:lottie_fileName="loading.json"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        ></com.airbnb.lottie.LottieAnimationView>-->
+
+</RelativeLayout>
