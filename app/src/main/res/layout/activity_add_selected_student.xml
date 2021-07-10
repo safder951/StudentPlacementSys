@@ -22,11 +22,11 @@
         app:layout_constraintVertical_bias="0.164" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/studentskill"
         android:layout_width="302dp"
         android:layout_height="48dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="text"
         android:hint="Enter Student Skill"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -36,53 +36,57 @@
         app:layout_constraintVertical_bias="0.118" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/studentnumber"
         android:layout_width="301dp"
         android:layout_height="52dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
         android:hint="Enter Student Number"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/studentskill"
         app:layout_constraintVertical_bias="0.114" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/studentaddress"
         android:layout_width="302dp"
         android:layout_height="54dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="text"
         android:hint="Enter Student Address"
         android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/studentnumber"
         app:layout_constraintVertical_bias="0.111" />
 
     <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/fetchstudent"
+        android:layout_width="309dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-        app:layout_constraintVertical_bias="0.164"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/studentaddress"
+        app:layout_constraintVertical_bias="0.173" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnaddselectstu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Add Selected Student"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintTop_toBottomOf="@+id/fetchstudent"
         app:layout_constraintVertical_bias="0.391" />
 
 
