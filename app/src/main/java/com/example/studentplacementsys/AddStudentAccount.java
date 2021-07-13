@@ -24,7 +24,7 @@ import java.util.Map;
 public class AddStudentAccount extends AppCompatActivity {
     EditText studentname,studentbranch,studentpecent,studentpass;
     Button addstudent;
-    final String addstu_url= "https://spsys.000webhostapp.com/studentlogin.php";
+    final String addstu_url= "https://spsys.000webhostapp.com/addstudent.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

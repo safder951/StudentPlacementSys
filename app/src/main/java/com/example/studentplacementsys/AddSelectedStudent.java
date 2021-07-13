@@ -136,7 +136,9 @@ public class AddSelectedStudent extends AppCompatActivity {
                     for(int i=0;i<jsonArray.length();i++)
                     {
                         JSONObject object = jsonArray.getJSONObject(i);
+                        list.add(object.getString("stu_id"));
                         list.add(object.getString("stu_name"));
+
                     }
                     studlist.addAll(list);
                 } catch (JSONException e) {

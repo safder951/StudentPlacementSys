@@ -15,7 +15,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StudentPlacementSys">
-        <activity android:name=".AddSelectedStudent"></activity>
+        <activity android:name=".FetchCompanyDetails"></activity>
+        <activity android:name=".StudentArea" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".AddSelectedStudent" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

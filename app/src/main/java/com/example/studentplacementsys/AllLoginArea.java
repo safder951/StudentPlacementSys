@@ -35,7 +35,7 @@ public class AllLoginArea extends AppCompatActivity {
         btnstudentlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(AllLoginArea.this, AdminArea.class);
+                Intent intent = new Intent(AllLoginArea.this, StudentLogin.class);
                 startActivity(intent);
                 finish();
             }
