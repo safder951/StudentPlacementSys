@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/studentcardview">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Name"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:id="@+id/staticstudentname"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/dbstudentname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="sans-serif"
+                android:text=""
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/staticstudentname" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Skill"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:layout_below="@+id/staticstudentname"
+                android:id="@+id/staticskill"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/dbstudentskill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_below="@+id/dbstudentname"
+                android:layout_marginTop="50dp"
+                android:fontFamily="sans-serif"
+                android:text=""
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/staticskill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Number"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:id="@+id/staticdetail"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/staticskill"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_below="@+id/dbstudentskill"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:layout_toRightOf="@+id/staticdetail"
+                android:id="@+id/dbstudentnumber"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Address"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:id="@+id/staticjobdescp"
+                android:layout_marginTop="50dp"
+                android:layout_below="@+id/staticdetail"
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_below="@+id/dbstudentnumber"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif"
+                android:layout_toRightOf="@+id/staticjobdescp"
+                android:id="@+id/dbstudentaddress"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

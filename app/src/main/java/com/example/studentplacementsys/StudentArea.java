@@ -26,5 +26,21 @@ public class StudentArea extends AppCompatActivity {
                 finish();
             }
         });
+        card2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(StudentArea.this, FetchPastPaper.class);
+                startActivity(i);
+                finish();
+            }
+        });
+        card3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(StudentArea.this, FetchStudentDetails.class);
+                startActivity(i);
+                finish();
+            }
+        });
     }
 }

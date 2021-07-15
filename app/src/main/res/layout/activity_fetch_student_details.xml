@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FetchCompanyDetails">
+    tools:context=".FetchStudentDetails">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/rvfetchcompanydetail"
+        android:id="@+id/rvfetchstudentdetail"
         ></androidx.recyclerview.widget.RecyclerView>
 </LinearLayout>
